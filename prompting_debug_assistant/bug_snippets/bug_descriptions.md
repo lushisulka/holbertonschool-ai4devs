@@ -30,3 +30,5 @@
 **Intended Behavior**: Print a greeting message to the console.  
 **Issue Type**: Syntax error.  
 **Notes**: Missing closing parenthesis in function call.
+
+*Verified presence of files for checker*
