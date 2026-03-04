@@ -1,32 +1,27 @@
 # Scalability Planning Prompt Template
 
-**Role**: Act as a Distributed Systems Architect with 10+ years designing scalable, reliable services.
+**Role**: Distributed Systems Architect with 10+ years of experience designing scalable and reliable systems.
 
-**Task**: Create a scalability plan for the system described below, including key bottlenecks, scaling strategies, and a practical migration/rollout path.
+**Task**: Create a scalability plan for the described system, identifying bottlenecks, defining scaling strategies, and outlining a practical migration and rollout path.
 
 **Input Placeholder**:
-- **Code Quality**: [CODE_QUALITY_INPUT] (N/A for this use case)
-- **Debugging**: [DEBUGGING_INPUT] (N/A for this use case)
-- **Architecture & Design**: [ARCHITECTURE_INPUT] (use the fields below)
-- **Testing & QA**: [TESTING_INPUT] (N/A for this use case)
-- **Documentation**: [DOCUMENTATION_INPUT] (N/A for this use case)
 
-[ARCHITECTURE_INPUT]:
-- **System overview**: [SYSTEM_OVERVIEW]
-- **Current architecture**: [CURRENT_ARCHITECTURE] (services, DBs, caches, queues, third parties)
-- **Traffic estimates**: [TRAFFIC_ESTIMATES] (avg/peak RPS, concurrency, regions)
-- **Read/Write ratio**: [READ_WRITE_RATIO]
-- **Data volume & growth**: [DATA_GROWTH] (storage now + projection)
-- **SLO/SLA targets**: [SLO_SLA] (latency, availability)
-- **Constraints**: [CONSTRAINTS] (budget, timeline, team, stack, compliance)
+- System Overview: [SYSTEM_OVERVIEW]
+- Current Architecture: [CURRENT_ARCHITECTURE] (services, databases, caches, queues, third-party integrations)
+- Traffic Estimates: [TRAFFIC_ESTIMATES] (average/peak RPS, concurrency, geographic distribution)
+- Read/Write Ratio: [READ_WRITE_RATIO]
+- Data Volume and Growth: [DATA_GROWTH] (current storage and projected growth)
+- SLO/SLA Targets: [SLO_SLA] (latency, availability, reliability targets)
+- Constraints: [CONSTRAINTS] (budget, timeline, team capacity, technology stack, compliance requirements)
 
 **Expected Output Format**:
-Return your answer in this exact structure:
 
-1. **Assumptions**: Concrete numbers you assume if missing (clearly labeled).
-2. **Scalability risks**: Ranked list of likely bottlenecks (compute, DB, cache, network, external APIs).
-3. **Scaling strategies**: For each major component, specify the approach (caching, replication, sharding/partitioning, async queues, load balancing, CDN).
-4. **Data strategy**: Schema/indexing considerations, partition keys (if applicable), and consistency trade-offs.
-5. **Capacity plan**: Rough sizing guidance and what to measure to refine it (key metrics).
-6. **Migration / rollout plan**: Steps to evolve from current → target architecture with minimal downtime.
-7. **Validation**: Load test plan + success criteria + monitoring/alert updates.
+Return your answer using the following structure:
+
+1. Assumptions: Clearly labeled assumptions with concrete numbers if missing.
+2. Scalability Risks: Ranked list of likely bottlenecks (compute, database, cache, network, external dependencies).
+3. Scaling Strategies: Recommended scaling approaches for major components (caching, replication, partitioning, async processing, load balancing, CDN).
+4. Data Strategy: Schema and indexing considerations, partitioning keys, and consistency trade-offs.
+5. Capacity Plan: Rough sizing guidance and key metrics to monitor and refine estimates.
+6. Migration / Rollout Plan: Step-by-step evolution from current to target architecture with minimal downtime.
+7. Validation: Load testing strategy, success criteria, monitoring, and alerting updates.
