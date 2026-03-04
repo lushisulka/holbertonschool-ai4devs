@@ -24,7 +24,7 @@
 - **Idempotency needs**: [IDEMPOTENCY_REQUIREMENTS] (which operations need it)  
 - **Versioning preference**: [VERSIONING_PREFERENCE] (path/header/media-type)  
 
-**Expected Output**: A complete API design in the following structure:  
+**Expected Output Format**: A complete API design in the following structure:  
 
 1. **Assumptions**: Bullet list (explicitly state missing info you assumed).  
 2. **Resource model**: List resources and relationships (IDs, ownership, lifecycle).  
