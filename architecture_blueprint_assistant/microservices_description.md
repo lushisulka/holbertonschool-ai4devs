@@ -1,32 +1,32 @@
 # Microservices Architecture
 
-In the microservices architecture, the StudyConnect application is divided into multiple independent services. Each service handles a specific responsibility and has its own database. Services communicate through APIs managed by the API Gateway.
+The StudyConnect system is decomposed into independent microservices. Each service manages a specific function and maintains its own database. Communication between services happens through the API Gateway.
 
 ## Services
 
-- **API Gateway**  
-  Acts as the single entry point for all client requests. It routes requests to the appropriate microservice and handles security, rate limiting, and request validation.
+- **API Gateway**
+  The central entry point for all client requests. It routes requests to the correct microservice and handles authentication and request management.
 
-- **Auth Service**  
-  Manages user authentication and authorization including login, registration, and token validation.
+- **Auth Service**
+  Handles user authentication including registration, login, token generation, and access control.
 
-- **User Profile Service**  
-  Handles user profile data such as personal information, enrolled courses, and preferences.
+- **User Service**
+  Manages user profile data such as personal information, enrolled courses, and preferences.
 
-- **Study Group Service**  
-  Responsible for creating, joining, and managing study groups and group memberships.
+- **Study Group Service**
+  Responsible for creating, joining, and managing study groups and their members.
 
-- **Resource Service**  
-  Manages uploading, storing, and retrieving shared study materials such as notes and documents.
+- **Resource Service**
+  Handles uploading, storing, and downloading study materials such as notes and documents.
 
-- **Chat Service**  
-  Enables messaging between users within study groups and manages chat history.
+- **Chat Service**
+  Provides messaging functionality between users and within study groups.
 
-- **Scheduling Service**  
-  Allows users to create and manage study sessions, including date, time, and participant information.
+- **Scheduling Service**
+  Manages study session scheduling, including creating sessions and storing time and participant information.
 
-- **Notification Service**  
-  Sends notifications to users about events such as new messages, scheduled sessions, or uploaded resources.
+- **Notification Service**
+  Sends alerts and updates to users about messages, resources, or scheduled study sessions.
 
-- **Search & Matching Service**  
-  Provides functionality for searching study resources and matching students with study partners based on courses or interests.
+- **Search Service**
+  Enables searching for study groups, study materials, and matching students based on courses.
