@@ -85,18 +85,6 @@ As a student, I want to rate helpful study partners so that others can identify 
 ---
 
 ### User Story 8
-As a tutor, I want to offer tutoring sessions so that students who need help can find academic support.
-
-**Acceptance Criteria**:
-- Tutor can create a tutoring session with subject and availability.
-- Students can view available tutoring sessions.
-- Students can request to join a tutoring session.
-
-**Priority**: Medium
-
----
-
-### User Story 9
 As a student, I want to receive notifications about group updates so that I stay informed about new materials or study sessions.
 
 **Acceptance Criteria**:
@@ -105,15 +93,3 @@ As a student, I want to receive notifications about group updates so that I stay
 - Notifications appear inside the app.
 
 **Priority**: High
-
----
-
-### User Story 10
-As a student, I want to search for shared study resources so that I can quickly find useful materials for my courses.
-
-**Acceptance Criteria**:
-- User can search resources by course or keyword.
-- System displays relevant study materials.
-- User can preview or download the resources.
-
-**Priority**: Medium
