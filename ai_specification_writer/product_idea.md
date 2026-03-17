@@ -1,31 +1,23 @@
 # Product Idea
 
 ## Vision
-Create a platform that helps students collaborate, share study resources, and organize group study sessions easily, improving learning efficiency and academic performance.
+Create a map-based platform that helps users discover the best places in any city through real experiences, curated guides, and visual recommendations from people who have already visited.
 
 ## Users
-- **Students**: want an easy way to share notes, find study partners, and organize group study sessions.
-- **Tutors**: want to provide help, share materials, and reach students who need support.
-- **Student Organizations / Study Groups**: want a simple platform to coordinate meetings, distribute materials, and track participation.
+- **Travelers**: want to quickly find the best places for food, photos, and experiences without spending hours researching.  
+- **Content Creators / Explorers**: want to share their travel experiences, guides, and recommendations.  
+- **Locals**: want to showcase hidden gems and authentic spots in their city.  
 
 ## Key Features
-- **Smart Study Group Matching**  
-  Automatically connects students with similar courses, schedules, and study goals.
-
-- **Resource Sharing Hub**  
-  Upload and organize notes, summaries, past exams, and study guides in one place.
-
-- **Integrated Scheduling**  
-  Built-in calendar for organizing study sessions and sending reminders.
-
-- **Discussion Channels**  
-  Course-specific chat spaces where students can ask questions and collaborate.
-
-- **Peer Rating System**  
-  Students can rate helpful peers or tutors to build a trusted learning community.
+- Interactive map with pinned locations (restaurants, photo spots, attractions)  
+- User-created travel guides (e.g., “Best of Rome in 3 days”)  
+- Visual content (photos/videos) for each location  
+- Experience-based reviews with tips and recommendations  
+- Save and organize favorite places into trip plans  
+- Smart recommendations based on user interests  
 
 ## Differentiators
-- Focus specifically on academic collaboration rather than general messaging.
-- Intelligent matching system for study partners.
-- Centralized resource library organized by course and topic.
-- Combination of scheduling, discussion, and resource sharing in one platform.
+- Map-first experience instead of traditional list-based apps  
+- Focus on real user experiences rather than generic ratings  
+- Combines discovery, planning, and social sharing in one platform  
+- Emphasis on hidden gems and photo-worthy locations 

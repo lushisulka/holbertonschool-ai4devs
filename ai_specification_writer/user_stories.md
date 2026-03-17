@@ -1,95 +1,119 @@
 # User Stories
 
 ### User Story 1
-As a student, I want to create a study profile with my courses so that I can connect with other students studying the same subjects.
+As a traveler, I want to explore a city through an interactive map so that I can easily discover interesting places.
 
 **Acceptance Criteria**:
-- User can add courses to their profile.
-- System stores and displays selected courses.
-- Other users can see shared courses when searching for study partners.
+- User can search for a city and open its map.  
+- Map displays pinned locations (restaurants, attractions, photo spots).  
+- User can click on a pin to see details.  
 
 **Priority**: MVP
 
 ---
 
 ### User Story 2
-As a student, I want to find study partners for a specific course so that I can study more effectively with others.
+As a user, I want to view detailed information about a place so that I can decide if it is worth visiting.
 
 **Acceptance Criteria**:
-- User can search for study partners by course name.
-- System displays a list of students enrolled in the same course.
-- User can send a request to connect with another student.
+- Each location shows photos and description.  
+- Tips and recommendations are displayed.  
+- User can see ratings or feedback from others.  
 
 **Priority**: MVP
 
 ---
 
 ### User Story 3
-As a student, I want to create a study group so that multiple students can collaborate for the same subject.
+As a traveler, I want to see photo spots recommended by others so that I can take great pictures.
 
 **Acceptance Criteria**:
-- User can create a study group with a name and course.
-- Other students can request to join the group.
-- Group members are listed and visible to all participants.
-
-**Priority**: MVP
-
----
-
-### User Story 4
-As a student, I want to upload study materials so that I can share notes and resources with others.
-
-**Acceptance Criteria**:
-- User can upload files such as PDFs or documents.
-- Uploaded materials are visible to members of the study group.
-- Files can be downloaded by other students.
+- Locations include photo-specific tags (e.g., “best sunset spot”).  
+- Photos from other users are visible.  
+- Tips for timing or angles are included.  
 
 **Priority**: High
 
 ---
 
-### User Story 5
-As a student, I want to schedule study sessions so that group members know when to meet.
+### User Story 4
+As a user, I want to save places to a personal list so that I can plan my trip.
 
 **Acceptance Criteria**:
-- User can create a session with date and time.
-- Group members receive a notification about the session.
-- Session appears on the group calendar.
+- User can bookmark a location.  
+- Saved places are stored in a personal list.  
+- User can access the list anytime.  
+
+**Priority**: MVP
+
+---
+
+### User Story 5
+As a user, I want to create and share travel guides so that others can benefit from my experience.
+
+**Acceptance Criteria**:
+- User can create a guide with multiple locations.  
+- Guide includes title, description, and images.  
+- Other users can view and access the guide.  
 
 **Priority**: High
 
 ---
 
 ### User Story 6
-As a student, I want to chat with my study group so that we can discuss questions and coordinate study sessions.
+As a user, I want to read experience-based reviews so that I can learn useful tips before visiting.
 
 **Acceptance Criteria**:
-- Group members can send and receive messages in a chat channel.
-- Messages appear in real-time.
-- Chat history is stored and viewable later.
+- Reviews include personal experiences and tips.  
+- Users can rate the usefulness of a review.  
+- Reviews are linked to specific locations.  
+
+**Priority**: MVP
+
+---
+
+### User Story 7
+As a user, I want to filter places by category so that I can find what I need faster.
+
+**Acceptance Criteria**:
+- User can filter by categories (food, attractions, photo spots).  
+- Map updates based on selected filters.  
+- Multiple filters can be applied simultaneously.  
 
 **Priority**: High
 
 ---
 
-### User Story 7
-As a student, I want to rate helpful study partners so that others can identify reliable collaborators.
+### User Story 8
+As a user, I want personalized recommendations so that I can discover places that match my interests.
 
 **Acceptance Criteria**:
-- Users can give ratings after participating in study sessions.
-- Ratings are displayed on user profiles.
-- Average rating is automatically calculated.
+- User selects interests (e.g., food, nightlife, photography).  
+- System suggests relevant places.  
+- Recommendations update based on activity.  
 
 **Priority**: Medium
 
 ---
 
-### User Story 8
-As a student, I want to receive notifications about group updates so that I stay informed about new materials or study sessions.
+### User Story 9
+As a local user, I want to add new places so that I can share hidden gems.
 
 **Acceptance Criteria**:
-- Users receive notifications when new files are uploaded.
-- Users receive notifications when a study session is scheduled.
-- Notifications appear inside the app.
+- User can add a new location on the map.  
+- User provides description, category, and images.  
+- New place becomes visible after submission.  
 
 **Priority**: High
+
+---
+
+### User Story 10
+As a user, I want to organize saved places into trip plans so that I can structure my travel itinerary.
+
+**Acceptance Criteria**:
+- User can create multiple trip lists.  
+- Places can be added or removed from a trip.  
+- Trip plans are easy to view and edit.  
+
+**Priority**: Medium
