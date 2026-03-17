@@ -28,7 +28,7 @@ As a user, I want to view detailed information about a place so that I can decid
 As a traveler, I want to see photo spots recommended by others so that I can take great pictures.
 
 **Acceptance Criteria**:
-- Locations include photo-specific tags (e.g., “best sunset spot”).  
+- Locations include photo-specific tags.  
 - Photos from other users are visible.  
 - Tips for timing or angles are included.  
 
@@ -54,7 +54,7 @@ As a user, I want to create and share travel guides so that others can benefit f
 **Acceptance Criteria**:
 - User can create a guide with multiple locations.  
 - Guide includes title, description, and images.  
-- Other users can view and access the guide.  
+- Other users can view the guide.  
 
 **Priority**: High
 
@@ -76,9 +76,9 @@ As a user, I want to read experience-based reviews so that I can learn useful ti
 As a user, I want to filter places by category so that I can find what I need faster.
 
 **Acceptance Criteria**:
-- User can filter by categories (food, attractions, photo spots).  
+- User can filter by categories.  
 - Map updates based on selected filters.  
-- Multiple filters can be applied simultaneously.  
+- Multiple filters can be applied.  
 
 **Priority**: High
 
@@ -88,32 +88,8 @@ As a user, I want to filter places by category so that I can find what I need fa
 As a user, I want personalized recommendations so that I can discover places that match my interests.
 
 **Acceptance Criteria**:
-- User selects interests (e.g., food, nightlife, photography).  
+- User selects interests.  
 - System suggests relevant places.  
-- Recommendations update based on activity.  
-
-**Priority**: Medium
-
----
-
-### User Story 9
-As a local user, I want to add new places so that I can share hidden gems.
-
-**Acceptance Criteria**:
-- User can add a new location on the map.  
-- User provides description, category, and images.  
-- New place becomes visible after submission.  
-
-**Priority**: High
-
----
-
-### User Story 10
-As a user, I want to organize saved places into trip plans so that I can structure my travel itinerary.
-
-**Acceptance Criteria**:
-- User can create multiple trip lists.  
-- Places can be added or removed from a trip.  
-- Trip plans are easy to view and edit.  
+- Recommendations update over time.  
 
 **Priority**: Medium
