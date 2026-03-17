@@ -1,27 +1,24 @@
-# UI Concept - Task Manager App
+# UI Concept - Travel Map Discovery App
 
 ## Purpose
-
-Help users organize, prioritize, and track their daily tasks efficiently. The app aims to improve productivity by providing clear task visibility, deadlines, and progress tracking.
+Help users discover the best places in any city through an interactive map, real user experiences, and curated travel guides.
 
 ## Users
-
-* Students: manage assignments, deadlines, and study schedules
-* Professionals: organize work tasks and projects
-* Individuals: track personal to-dos and daily routines
+- Travelers: explore cities and find top spots for food, photos, and attractions  
+- Locals: share hidden gems and recommendations  
+- Content Creators: create and publish travel guides  
 
 ## Core Screens
-
-* Dashboard: overview of tasks, deadlines, and progress
-* Task List: categorized list of all tasks (e.g., Today, Upcoming, Completed)
-* Add/Edit Task Screen: form to create or modify tasks with details like title, description, due date, and priority
-* Task Details Screen: detailed view of a selected task
+- Map Screen with pinned locations and filters  
+- Place Details Screen with photos, tips, and reviews  
+- Create Guide Screen for adding travel guides  
+- Saved Places / Trip Planner Screen  
+- User Profile Screen with created guides and activity  
 
 ## Actions
-
-* Create new task
-* Edit existing task
-* Mark task as complete/incomplete
-* Delete task
-* Filter and sort tasks by date, priority, or category
-* View progress and task summaries
+- Search and explore a city on the map  
+- View place details (photos, reviews, tips)  
+- Save/bookmark locations  
+- Create and share travel guides  
+- Add new places to the map  
+- Filter places by category (food, photo spots, attractions)  
