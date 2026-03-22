@@ -1,21 +1,20 @@
 # UI Concept - Travel Map Discovery App
 
 ## Purpose
-Help users discover the best places in any city through an interactive map, real user experiences, and curated travel guides.
+Help users discover the best places in a city using an interactive map and real user experiences.
 
 ## Users
-- Travelers: explore cities and find top spots for food, photos, and attractions  
-- Locals: share hidden gems and recommendations  
+- Travelers: find places for food, photos, and attractions  
+- Locals: share recommendations and hidden gems  
 
 ## Core Screens
 - Map Screen with pinned locations  
 - Place Details Screen with photos and reviews  
-- Saved Places / Trip Planner Screen  
-- User Profile Screen  
+- Saved Places Screen  
 
 ## Actions
-- Search and explore a city on the map  
-- View place details (photos, reviews, tips)  
-- Save/bookmark locations  
-- Add new places to the map  
+- Search and explore a city  
+- View place details  
+- Save locations  
+- Add new places  
 - Filter places by category  
