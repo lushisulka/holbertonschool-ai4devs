@@ -1,0 +1,20 @@
+Mockup Description for Place Details Screen (Version 1 – Basic Layout)
+
+This is a basic wireframe of the Place Details Screen for Travel Map Discovery App.
+
+Layout:
+
+Top: Large image of the location
+Center: Place name, rating, short description, tips
+Bottom: User reviews list and Save button
+
+Hierarchy:
+
+Primary: Place image and title
+Secondary: Reviews and tips
+
+Usability:
+
+Clear call-to-action with Save button
+Scrolling layout for easy reading
+Minimal design to focus on content

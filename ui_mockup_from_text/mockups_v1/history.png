@@ -1,0 +1,20 @@
+Mockup Description for Saved Places Screen (Version 1 – Basic Layout)
+
+This is a basic wireframe of the Saved Places Screen for Travel Map Discovery App.
+
+Layout:
+
+Top: Screen title “Saved Places”
+Center: List of saved locations with image and name
+Bottom: Scrollable list
+
+Hierarchy:
+
+Primary: List of saved places
+Secondary: Navigation bar (persistent at bottom)
+
+Usability:
+
+Simple scrolling list
+Easy to open place details from list
+Clean, minimal layout

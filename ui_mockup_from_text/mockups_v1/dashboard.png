@@ -1,0 +1,20 @@
+Mockup Description for Map Screen (Version 1 – Basic Layout)
+
+This is a basic wireframe of the Map Screen for Travel Map Discovery App.
+
+Layout:
+
+Top: Search bar with category filters (food, attractions, photo spots)
+Center: Interactive map with location pins
+Bottom: Navigation bar (Home, Saved, Profile)
+
+Hierarchy:
+
+Primary: Map with pins
+Secondary: Filters and navigation bar
+
+Usability:
+
+Easy navigation with bottom bar
+Clickable pins show place details
+Clean layout for quick exploration
