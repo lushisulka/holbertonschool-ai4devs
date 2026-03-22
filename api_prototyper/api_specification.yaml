@@ -1,0 +1,153 @@
+openapi: 3.0.3
+info:
+  title: Travel Map Discovery API
+  version: 1.0.0
+  description: API for Travel Map Discovery App (places, reviews, guides)
+servers:
+  - url: https://api.travelmapapp.com/v1
+security:
+  - bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  responses:
+    UnauthorizedError:
+      description: JWT token missing or invalid
+    NotFoundError:
+      description: Resource not found
+    BadRequestError:
+      description: Invalid request parameters
+paths:
+  /cities:
+    get:
+      summary: List cities
+      parameters:
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            default: 10
+        - in: query
+          name: page
+          schema:
+            type: integer
+            default: 1
+      responses:
+        '200':
+          description: Successful response
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+
+  /places:
+    get:
+      summary: Get places by city
+      parameters:
+        - in: query
+          name: city
+          schema:
+            type: string
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            default: 10
+        - in: query
+          name: page
+          schema:
+            type: integer
+            default: 1
+      responses:
+        '200':
+          description: List of places
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+
+    post:
+      summary: Add a new place
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                latitude:
+                  type: number
+                longitude:
+                  type: number
+                category:
+                  type: string
+      responses:
+        '201':
+          description: Place created
+        '400':
+          $ref: '#/components/responses/BadRequestError'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+
+  /places/{id}:
+    get:
+      summary: Get place details
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Place details
+        '404':
+          $ref: '#/components/responses/NotFoundError'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+
+    put:
+      summary: Update a place
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                category:
+                  type: string
+      responses:
+        '200':
+          description: Place updated
+        '400':
+          $ref: '#/components/responses/BadRequestError'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '404':
+          $ref: '#/components/responses/NotFoundError'
+
+    delete:
+      summary: Delete a place
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Place deleted
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '404':
+          $ref: '#/components/responses/NotFoundError'
