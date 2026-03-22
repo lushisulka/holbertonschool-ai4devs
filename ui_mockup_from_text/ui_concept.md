@@ -16,5 +16,3 @@ Help users discover the best places in a city using an interactive map and real 
 - Search and explore a city  
 - View place details  
 - Save locations  
-- Add new places  
-- Filter places by category  
