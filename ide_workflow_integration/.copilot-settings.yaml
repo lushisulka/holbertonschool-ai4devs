@@ -1,0 +1,28 @@
+languages:
+  javascript:
+    style_guide: "standard"
+    semicolons: true
+  python:
+    style_guide: "pep8"
+    type_hints: true
+  yaml:
+    indentation: 2
+
+workflows:
+  code_review:
+    enabled: true
+    focus_areas:
+      - security
+      - performance
+
+  doc_generator:
+    enabled: true
+    formats:
+      - markdown
+      - openapi
+
+  api_development:
+    enabled: true
+    features:
+      - CRUD generation
+      - validation rules
