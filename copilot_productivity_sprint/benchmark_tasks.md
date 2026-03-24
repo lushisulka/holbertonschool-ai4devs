@@ -30,7 +30,7 @@ Query parameters:
 
 **Acceptance Criteria**:  
 - Returns 200 with list of places  
-- Supports pagination using page and limit  
+- Supports pagination  
 - Returns empty list if no data found  
 
 ---
@@ -51,36 +51,3 @@ JSON body:
 - Returns 201 on success  
 - Returns 404 if place not found  
 - Returns 400 if rating is not between 1–5  
-
----
-
-## Task 4 - Save Place to Favorites
-**Requirements**: Implement POST /favorites endpoint to save a place for a user.  
-
-**Inputs**:  
-JSON body:  
-{userId: "123", placeId: "456"}  
-
-**Outputs**:  
-- Confirmation message or saved object  
-
-**Acceptance Criteria**:  
-- Returns 200 on success  
-- Returns 404 if place does not exist  
-- Prevents duplicate favorites  
-
----
-
-## Task 5 - Delete Place
-**Requirements**: Implement DELETE /places/{id} endpoint.  
-
-**Inputs**:  
-Path parameter: place ID  
-
-**Outputs**:  
-- Confirmation message  
-
-**Acceptance Criteria**:  
-- Returns 204 on successful deletion  
-- Returns 404 if place not found  
-- Only authorized users can delete  
