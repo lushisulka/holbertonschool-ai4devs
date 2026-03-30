@@ -1,9 +1,10 @@
 import unittest
 from recommendation_engine import RecommendationEngine
+import csv
+import os
 
 class TestCase10(unittest.TestCase):
     def test_engine_load_and_recommend(self):
-        import csv, os
         engine = RecommendationEngine()
         test_file = "temp_test.csv"
         with open(test_file,"w",newline="") as f:
