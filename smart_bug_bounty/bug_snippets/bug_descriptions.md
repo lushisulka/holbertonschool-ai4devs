@@ -17,5 +17,5 @@
 - **Current Issue**: Using `sorted()` changes the order of elements.
 
 ## bug5.js
-- **Intended Behavior**: Fetch user data asynchronously and return the name.
+- **Intended Behavior**: Fetch user data asynchronously and return the user's name.
 - **Current Issue**: Missing `await`, so it returns a Promise instead of resolved value.
