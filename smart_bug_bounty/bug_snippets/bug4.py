@@ -1,5 +1,3 @@
-# Intended: Remove duplicates while preserving order
-
 def remove_duplicates(lst):
     result = []
 
@@ -12,4 +10,4 @@ def remove_duplicates(lst):
 
 if __name__ == "__main__":
     data = [3, 1, 2, 3, 2]
-    print(remove_duplicates(data))  # Expected: [3,1,2]
+    print(remove_duplicates(data))
