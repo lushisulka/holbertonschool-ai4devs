@@ -13,7 +13,7 @@
 - **Current Issue**: Integer division truncates decimal values.
 
 ## bug4.py
-- **Intended Behavior**: Remove duplicates while preserving original order.
+- **Intended Behavior**: Remove duplicates while preserving order.
 - **Current Issue**: Using `sorted()` changes the order of elements.
 
 ## bug5.js

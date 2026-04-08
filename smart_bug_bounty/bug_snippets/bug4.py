@@ -1,4 +1,4 @@
-# Intended: Remove duplicates from a list while preserving order
+# Intended: Remove duplicates while preserving order
 
 def remove_duplicates(lst):
     result = []
@@ -7,7 +7,7 @@ def remove_duplicates(lst):
         if item not in result:
             result.append(item)
 
-    return sorted(result)  # BUG: sorting breaks original order
+    return sorted(result)  # BUG
 
 
 if __name__ == "__main__":

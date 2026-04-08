@@ -1,7 +1,7 @@
 // Intended: Fetch user data (simulate async)
 
 function fetchUser() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         setTimeout(() => {
             resolve({ name: "John" });
         }, 1000);

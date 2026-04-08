@@ -4,7 +4,7 @@ function wordCount(text) {
     const words = text.split(" ");
     const counts = {};
 
-    for (let i = 0; i <= words.length; i++) { // BUG: should be < not <=
+    for (let i = 0; i <= words.length; i++) { // BUG
         const word = words[i];
 
         if (counts[word]) {
