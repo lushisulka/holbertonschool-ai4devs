@@ -1,18 +1,12 @@
-def last_n_items(lst, n):
-    """Return the last n items in a list."""
-    return lst[-n - 1:]  # Bug: off-by-one, should be lst[-n:]
+# Intended: Return the last n items of a list
 
+def get_last_items(lst, n):
+    if n < 0:
+        return []
 
-def average(lst):
-    """Return the average of a list of numbers."""
-    total = 0
-    for i in range(len(lst) + 1):  # Bug: range should be range(len(lst))
-        total += lst[i]
-    return total / len(lst)
+    return lst[-n-1:]  # BUG: off-by-one error
 
 
 if __name__ == "__main__":
-    numbers = [10, 20, 30, 40, 50]
-
-    print("Last 3 items:", last_n_items(numbers, 3))
-    print("Average:", average(numbers))
+    data = [1, 2, 3, 4, 5]
+    print(get_last_items(data, 2))  # Expected: [4,5]
