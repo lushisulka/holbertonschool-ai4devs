@@ -1,4 +1,5 @@
 # Intended: Return the last n items of a list
+
 def get_last_items(lst, n):
     if n < 0:
         return []
