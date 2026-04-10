@@ -1,5 +1,3 @@
-// Intended: Calculate average of an integer array
-
 public class bug3 {
     public static double average(int[] nums) {
         int sum = 0;
@@ -8,11 +6,11 @@ public class bug3 {
             sum += nums[i];
         }
 
-        return (double) sum / nums.length; // FIXED
+        return (double) sum / nums.length;
     }
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4};
-        System.out.println(average(arr)); // Expected output: 2.5
+        System.out.println(average(arr));
     }
 }

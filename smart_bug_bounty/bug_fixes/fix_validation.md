@@ -1,24 +1,34 @@
+# Fix Validation Report
+
 ## bug1.py
-Original Issue: Off-by-one error in slicing (lst[-n-1:] returns one extra item)
-Fix Applied: Changed slice to lst[-n:]
-Test Results: Test with n=2 returns [4, 5] → All test cases passed
+- Original Issue: Off-by-one error in slice (`lst[-n-1:]`)
+- Fix Applied: Changed to `lst[-n:]` and handled `n <= 0`
+- Test Results: All test cases passed
+
+---
 
 ## bug2.js
-Original Issue: Loop runs one extra iteration (i <= words.length) causing undefined entry in counts
-Fix Applied: Changed loop condition to i < words.length
-Test Results: Word count function works correctly; all tests passed
+- Original Issue: Off-by-one error in loop (`i <= words.length`)
+- Fix Applied: Changed to `i < words.length`
+- Test Results: All test cases passed
+
+---
 
 ## bug3.java
-Original Issue: Integer division truncates decimal (sum / nums.length)
-Fix Applied: Cast numerator to double: (double) sum / nums.length
-Test Results: Average calculation correct; all test cases passed
+- Original Issue: Integer division in `sum / nums.length`
+- Fix Applied: Cast to double `(double) sum / nums.length`
+- Test Results: All test cases passed
+
+---
 
 ## bug4.py
-Original Issue: sorted() changes original insertion order of elements
-Fix Applied: Returned result directly instead of sorted(result)
-Test Results: Duplicate removal preserves insertion order; all tests passed
+- Original Issue: Unwanted sorting changed original order
+- Fix Applied: Removed `sorted()` to preserve order
+- Test Results: All test cases passed
+
+---
 
 ## bug5.js
-Original Issue: fetchUser() returns a Promise but await missing, causing undefined
-Fix Applied: Added await when calling fetchUser()
-Test Results: User name retrieved correctly; all tests passed
+- Original Issue: Missing `await` for async function
+- Fix Applied: Added `await fetchUser()`
+- Test Results: All test cases passed

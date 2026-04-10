@@ -1,10 +1,8 @@
-// Intended: Count occurrences of each word in a string
-
 function wordCount(text) {
     const words = text.split(" ");
     const counts = {};
 
-    for (let i = 0; i < words.length; i++) { // FIXED
+    for (let i = 0; i < words.length; i++) {
         const word = words[i];
 
         if (counts[word]) {
@@ -17,4 +15,4 @@ function wordCount(text) {
     return counts;
 }
 
-console.log(wordCount("hello world hello")); // Expected output: { hello: 2, world: 1 }
+console.log(wordCount("hello world hello"));
